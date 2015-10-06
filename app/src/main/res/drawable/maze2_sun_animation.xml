@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android"
+    android:oneshot="false" >
+
+    <item
+        android:drawable="@drawable/maze2sun1"
+        android:duration="@integer/maze1sun_animation_frame_duration"/>
+    <item
+        android:drawable="@drawable/maze2sun2"
+        android:duration="@integer/maze1sun_animation_frame_duration"/>
+    <item
+        android:drawable="@drawable/maze2sun3"
+        android:duration="@integer/maze1sun_animation_frame_duration"/>
+    <item
+        android:drawable="@drawable/maze2sun4"
+        android:duration="@integer/maze1sun_animation_frame_duration"/>
+    <item
+        android:drawable="@drawable/maze2sun5"
+        android:duration="@integer/maze1sun_animation_frame_duration"/>
+    <item
+        android:drawable="@drawable/maze2sun6"
+        android:duration="@integer/maze1sun_animation_frame_duration"/>
+    <item
+        android:drawable="@drawable/maze2sun7"
+        android:duration="@integer/maze1sun_animation_frame_duration"/>
+    <item
+        android:drawable="@drawable/maze2sun8"
+        android:duration="@integer/maze1sun_animation_frame_duration"/>
+    <item
+        android:drawable="@drawable/maze2sun9"
+        android:duration="@integer/maze1sun_animation_frame_duration"/>
+    <item
+        android:drawable="@drawable/maze2sun10"
+        android:duration="@integer/maze1sun_animation_frame_duration"/>
+    <item
+        android:drawable="@drawable/maze2sun11"
+        android:duration="@integer/maze1sun_animation_frame_duration"/>
+    <item
+        android:drawable="@drawable/maze2sun12"
+        android:duration="@integer/maze1sun_animation_frame_duration"/>
+    <item
+        android:drawable="@drawable/maze2sun13"
+        android:duration="@integer/maze1sun_animation_frame_duration"/>
+    <item
+        android:drawable="@drawable/maze2sun14"
+        android:duration="@integer/maze1sun_animation_frame_duration"/>
+    <item
+        android:drawable="@drawable/maze2sun15"
+        android:duration="@integer/maze1sun_animation_frame_duration"/>
+    <item
+        android:drawable="@drawable/maze2sun16"
+        android:duration="@integer/maze1sun_animation_frame_duration"/>
+    <item
+        android:drawable="@drawable/maze2sun17"
+        android:duration="@integer/maze1sun_animation_frame_duration"/>
+
+</animation-list>

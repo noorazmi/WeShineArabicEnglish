@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android"
+    android:oneshot="false" >
+
+    <item
+        android:drawable="@drawable/birds_first1"
+        android:duration="@integer/birds_animation_frame_duration"/>
+    <item
+        android:drawable="@drawable/birds_first2"
+        android:duration="@integer/birds_animation_frame_duration"/>
+    <item
+        android:drawable="@drawable/birds_first3"
+        android:duration="@integer/birds_animation_frame_duration"/>
+    <item
+        android:drawable="@drawable/birds_first4"
+        android:duration="@integer/birds_animation_frame_duration"/>
+    <item
+        android:drawable="@drawable/birds_first5"
+        android:duration="@integer/birds_animation_frame_duration"/>
+    <item
+        android:drawable="@drawable/birds_first6"
+        android:duration="@integer/birds_animation_frame_duration"/>
+    <item
+        android:drawable="@drawable/birds_first7"
+        android:duration="@integer/birds_animation_frame_duration"/>
+    <item
+        android:drawable="@drawable/birds_first8"
+        android:duration="@integer/birds_animation_frame_duration"/>
+    <item
+        android:drawable="@drawable/birds_first9"
+        android:duration="@integer/birds_animation_frame_duration"/>
+    <item
+        android:drawable="@drawable/birds_first10"
+        android:duration="@integer/birds_animation_frame_duration"/>
+    <item
+        android:drawable="@drawable/birds_first11"
+        android:duration="@integer/birds_animation_frame_duration"/>
+    <item
+        android:drawable="@drawable/birds_first12"
+        android:duration="@integer/birds_animation_frame_duration"/>
+    <item
+        android:drawable="@drawable/birds_first13"
+        android:duration="@integer/birds_animation_frame_duration"/>
+    <item
+        android:drawable="@drawable/birds_first14"
+        android:duration="@integer/birds_animation_frame_duration"/>
+    <item
+        android:drawable="@drawable/birds_first15"
+        android:duration="@integer/birds_animation_frame_duration"/>
+    <item
+        android:drawable="@drawable/birds_first16"
+        android:duration="@integer/birds_animation_frame_duration"/>
+    <item
+        android:drawable="@drawable/birds_first17"
+        android:duration="@integer/birds_animation_frame_duration"/>
+
+</animation-list>

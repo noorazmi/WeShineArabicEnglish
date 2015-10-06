@@ -1,0 +1,28 @@
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.moderneng.framents.BalloonAnimationActivityFragment">
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageview_animation"
+        android:layout_gravity="center"
+        android:src="@drawable/well_done"/>
+
+    <AbsoluteLayout
+
+        android:id="@+id/absolute_layout_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/transparent"
+        android:visibility="invisible">
+
+
+    </AbsoluteLayout>
+
+
+</FrameLayout>
+
+

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android"
+    android:oneshot="false" >
+
+    <item
+        android:drawable="@drawable/star1"
+        android:duration="@integer/stars_animation_frame_duration"/>
+    <item
+        android:drawable="@drawable/star2"
+        android:duration="@integer/stars_animation_frame_duration"/>
+    <item
+        android:drawable="@drawable/star3"
+        android:duration="@integer/stars_animation_frame_duration"/>
+    <item
+        android:drawable="@drawable/star4"
+        android:duration="@integer/stars_animation_frame_duration"/>
+    <item
+        android:drawable="@drawable/star5"
+        android:duration="@integer/stars_animation_frame_duration"/>
+    <item
+        android:drawable="@drawable/star6"
+        android:duration="@integer/stars_animation_frame_duration"/>
+    <item
+        android:drawable="@drawable/star7"
+        android:duration="@integer/stars_animation_frame_duration"/>
+    <item
+        android:drawable="@drawable/star8"
+        android:duration="@integer/stars_animation_frame_duration"/>
+    <item
+        android:drawable="@drawable/star9"
+        android:duration="@integer/stars_animation_frame_duration"/>
+    <item
+        android:drawable="@drawable/star10"
+        android:duration="@integer/stars_animation_frame_duration"/>
+    <item
+        android:drawable="@drawable/star11"
+        android:duration="@integer/stars_animation_frame_duration"/>
+    <item
+        android:drawable="@drawable/star12"
+        android:duration="@integer/stars_animation_frame_duration"/>
+    <item
+        android:drawable="@drawable/star13"
+        android:duration="@integer/stars_animation_frame_duration"/>
+    <!-- <item
+        android:drawable="@drawable/star14"
+        android:duration="@integer/stars_animation_frame_duration"/>
+    <item
+        android:drawable="@drawable/star15"
+        android:duration="@integer/stars_animation_frame_duration"/>
+    <item
+        android:drawable="@drawable/star16"
+        android:duration="@integer/stars_animation_frame_duration"/>
+    <item
+        android:drawable="@drawable/star17"
+        android:duration="@integer/stars_animation_frame_duration"/>
+    <item
+        android:drawable="@drawable/star18"
+        android:duration="@integer/stars_animation_frame_duration"/>
+    <item
+        android:drawable="@drawable/star19"
+        android:duration="@integer/stars_animation_frame_duration"/>
+    <item
+        android:drawable="@drawable/star20"
+        android:duration="@integer/stars_animation_frame_duration"/> -->
+
+</animation-list>

@@ -1,21 +1,190 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.moderneng.arbeng" >
+    package="com.moderneng" >
+
+
+
+    <supports-screens
+        android:anyDensity="true"
+        android:largeScreens="true"
+        android:normalScreens="true"
+        android:resizeable="true"
+        android:smallScreens="true"
+        android:xlargeScreens="true" />
+
+    <!-- Required to access Google Play Licensing -->
+    <uses-permission android:name="com.android.vending.CHECK_LICENSE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <!-- Required to keep CPU alive while downloading files
+        (NOT to keep screen awake) -->
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
 
     <application
+        android:name=".WeShineApp"
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@drawable/ic_launcher"
         android:label="@string/app_name"
-        android:theme="@style/AppTheme" >
+        android:largeHeap="true"
+        android:theme="@android:style/Theme.Holo.Light.NoActionBar" >
         <activity
-            android:name=".MainActivity"
-            android:label="@string/app_name" >
+            android:name=".activities.SplashActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="landscape" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-    </application>
+        <activity
+            android:name=".activities.MainMenuActivity"
+            android:configChanges="orientation|navigation|screenLayout"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name=".activities.EducationMenuActivity"
+            android:configChanges="orientation|navigation|screenLayout"
+            android:screenOrientation="landscape" >
+        </activity>
+        <!-- <activity -->
+        <!-- android:name="com.moderneng.activities.story" -->
+        <!-- android:configChanges="orientation|navigation|screenLayout" -->
+        <!-- android:screenOrientation="landscape" > -->
+        <!-- </activity> -->
+        <activity
+            android:name=".activities.VideoPlayActivity"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name=".activities.GameMenuActivity"
+            android:configChanges="orientation|navigation|screenLayout"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name=".activities.Horizontalpager"
+            android:screenOrientation="landscape" >
+        </activity>
+        <!-- <activity -->
+        <!-- android:name="com.moderneng.activities.mazemenu" -->
+        <!-- android:configChanges="orientation|navigation|screenLayout" -->
+        <!-- android:screenOrientation="landscape" > -->
+        <!-- </activity> -->
+        <activity
+            android:name=".activities.MatchingMenuActivity"
+            android:configChanges="orientation|navigation|screenLayout"
+            android:noHistory="false"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name=".activities.PuzzleMenuActivity"
+            android:configChanges="orientation|navigation|screenLayout"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name=".activities.Match1Activity"
+            android:configChanges="orientation|navigation|screenLayout"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name=".activities.Match2Activity"
+            android:configChanges="orientation|navigation|screenLayout"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name=".activities.Match3Activity"
+            android:configChanges="orientation|navigation|screenLayout"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name=".activities.Match4Activity"
+            android:configChanges="orientation|navigation|screenLayout"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name=".activities.Match5Activity"
+            android:configChanges="orientation|navigation|screenLayout"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name=".activities.Puzzle1Activity"
+            android:configChanges="orientation|navigation|screenLayout"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name=".activities.Puzzle2Activity"
+            android:configChanges="orientation|navigation|screenLayout"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name=".activities.Puzzle3Activity"
+            android:configChanges="orientation|navigation|screenLayout"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name=".activities.Puzzle4Activity"
+            android:configChanges="orientation|navigation|screenLayout"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name=".activities.Puzzle5Activity"
+            android:configChanges="orientation|navigation|screenLayout"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name=".activities.MemoryGame2Activity"
+            android:configChanges="orientation|navigation|screenLayout"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name=".activities.MemoryGamesMenuActivity"
+            android:configChanges="orientation|navigation|screenLayout"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name=".activities.MemoryGame1Activity"
+            android:configChanges="orientation|navigation|screenLayout"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name=".activities.MemoryGame3Activity"
+            android:configChanges="orientation|navigation|screenLayout"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name=".activities.MazeMenuActivity"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name=".activities.SunCatcherActivity"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name=".activities.BalloonActivity"
+            android:label="@string/title_activity_baloon"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name=".activities.BalloonAnimationActivity"
+            android:label="@string/title_activity_baloon_animation"
+            android:screenOrientation="landscape"
+            android:theme="@style/Theme.Transparent" >
+        </activity>
+        <activity
+            android:name=".activities.LanguageMenuActivity"
+            android:screenOrientation="landscape" >
+        </activity>
 
+        <provider android:name="com.moderneng.providers.CustomAPEZProvider"
+                  android:authorities="com.moderneng.arbeng.provider"
+                  android:exported="false"
+                  android:multiprocess="true">
+            <!--provide main file version and patch file  otherwise file will not be accessible-->
+            <meta-data android:name="mainVersion" android:value="2"></meta-data>
+            <meta-data android:name="patchVersion" android:value="-1"></meta-data>
+        </provider>
+    </application>
 </manifest>

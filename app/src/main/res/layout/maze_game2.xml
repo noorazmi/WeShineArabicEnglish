@@ -1,0 +1,76 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/my_frame"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ffff00" >
+
+    <ImageView
+        android:id="@+id/mazeGame2_bottomImageView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"/>
+
+    <com.moderneng.views.MazeGame1View
+        android:id="@+id/mazeGame2_middleImageView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY" />
+
+    <ImageView
+        android:id="@+id/mazeGame2_topImageView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY" />
+
+    <ImageView
+        android:id="@+id/mazeGame2_birdsImageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|right"
+        android:src="@drawable/maze2birds1"/>
+
+    <ImageView
+        android:id="@+id/mazeGame2_sunImageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|left" 
+        android:layout_marginTop="@dimen/maze2_sun_top_margin"
+        android:layout_marginLeft="@dimen/maze2_sun_left_margin"
+        android:src="@drawable/maze2sun1"/>
+    <ImageView
+        android:id="@+id/mazeGame2_seaImageView"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_gravity="bottom" />
+    <ImageView
+        android:id="@+id/mazeGame2_redShipImageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|left" 
+        android:layout_marginLeft="@dimen/maze2_red_boat_left_margin"
+        android:src="@drawable/maze2_red_ship1"/>
+    
+     <ImageView
+        android:id="@+id/mazeGame2_yellowShipImageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|left" 
+        android:src="@drawable/ship_yellow"/>
+
+    <ImageView
+        android:id="@+id/mazeGame2_greenShipImageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|right" 
+        android:layout_marginBottom="5dp"
+        android:layout_marginRight="20dp"
+        android:src="@drawable/maze2_green_ship1"/>
+
+    <ImageView
+        android:id="@+id/mazeGame2_fabulusImageView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitCenter"
+        android:visibility="invisible" />
+    
+</FrameLayout>

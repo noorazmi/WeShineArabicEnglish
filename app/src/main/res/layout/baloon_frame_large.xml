@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="300dp" >
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="@dimen/baloon_width_large"
+        android:layout_height="@dimen/baloon_height_large"
+        android:layout_gravity="top|left"
+        android:layout_marginTop="180dp"
+        android:onClick="onBaloonClick"
+        android:src="@drawable/orange"
+        android:tag="@string/play_five" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="@dimen/baloon_width_large"
+        android:layout_height="@dimen/baloon_height_large"
+        android:layout_gravity="top|left"
+        android:onClick="onBaloonClick"
+        android:src="@drawable/deep_royal_blue"
+        android:tag="@string/play_flower" />
+
+     <ImageView
+         android:id="@+id/imageView3"
+         android:layout_width="@dimen/baloon_width_large"
+         android:layout_height="@dimen/baloon_height_large"
+         android:layout_gravity="top|left"
+         android:layout_marginLeft="86dp"
+         android:layout_marginTop="150dp"
+         android:onClick="onBaloonClick"
+         android:src="@drawable/magentha"
+         android:tag="@string/play_five" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="@dimen/baloon_width_large"
+        android:layout_height="@dimen/baloon_height_large"
+        android:layout_gravity="top|left"
+        android:layout_marginLeft="190dp"
+        android:layout_marginTop="115dp"
+        android:onClick="onBaloonClick"
+        android:src="@drawable/medium_gray"
+        android:tag="@string/play_flower" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="@dimen/baloon_width_large"
+        android:layout_height="@dimen/baloon_height_large"
+        android:layout_gravity="top|left"
+        android:layout_marginLeft="330dp"
+        android:layout_marginTop="200dp"
+        android:onClick="onBaloonClick"
+        android:src="@drawable/light_green"
+        android:tag="@string/play_five" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="@dimen/baloon_width_large"
+        android:layout_height="@dimen/baloon_height_large"
+        android:layout_gravity="top|left"
+        android:layout_marginLeft="305dp"
+        android:layout_marginTop="95dp"
+        android:onClick="onBaloonClick"
+        android:src="@drawable/baloon_red"
+        android:tag="@string/play_five" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="@dimen/baloon_width_large"
+        android:layout_height="@dimen/baloon_height_large"
+        android:layout_gravity="top|left"
+        android:layout_marginLeft="410dp"
+        android:layout_marginTop="60dp"
+        android:onClick="onBaloonClick"
+        android:src="@drawable/yelow"
+        android:tag="@string/play_flower" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="@dimen/baloon_width_large"
+        android:layout_height="@dimen/baloon_height_large"
+        android:layout_gravity="top|left"
+        android:layout_marginLeft="520dp"
+        android:layout_marginTop="70dp"
+        android:onClick="onBaloonClick"
+        android:src="@drawable/baloon_red"
+        android:tag="@string/play_five" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="@dimen/baloon_width_large"
+        android:layout_height="@dimen/baloon_height_large"
+        android:layout_gravity="top|left"
+        android:layout_marginLeft="620dp"
+        android:layout_marginTop="100dp"
+        android:onClick="onBaloonClick"
+        android:src="@drawable/deep_cyan"
+        android:tag="@string/play_flower" />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="@dimen/baloon_width_large"
+        android:layout_height="@dimen/baloon_height_large"
+        android:layout_gravity="top|left"
+        android:layout_marginLeft="600dp"
+        android:layout_marginTop="210dp"
+        android:onClick="onBaloonClick"
+        android:src="@drawable/yelow"
+        android:tag="@string/play_flower" />
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="@dimen/baloon_width_large"
+        android:layout_height="@dimen/baloon_height_large"
+        android:layout_gravity="top|left"
+        android:layout_marginLeft="800dp"
+        android:layout_marginTop="230dp"
+        android:onClick="onBaloonClick"
+        android:src="@drawable/orange"
+        android:tag="@string/play_five" />
+
+   <ImageView
+       android:id="@+id/imageView12"
+       android:layout_width="@dimen/baloon_width_large"
+       android:layout_height="@dimen/baloon_height_large"
+       android:layout_gravity="top|left"
+       android:layout_marginLeft="920dp"
+       android:layout_marginTop="260dp"
+       android:onClick="onBaloonClick"
+       android:src="@drawable/orange"
+       android:tag="@string/play_flower" />
+
+    <ImageView
+        android:id="@+id/imageView13"
+        android:layout_width="@dimen/baloon_width_large"
+        android:layout_height="@dimen/baloon_height_large"
+        android:layout_gravity="top|left"
+        android:layout_marginLeft="750dp"
+        android:layout_marginTop="70dp"
+        android:onClick="onBaloonClick"
+        android:src="@drawable/baloon_red"
+        android:tag="@string/play_five" /> 
+
+</FrameLayout>

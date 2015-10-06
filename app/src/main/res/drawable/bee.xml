@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:oneshot="false">
+<item
+    android:drawable="@drawable/bee1"
+    android:duration="200"/>
+<item
+    android:drawable="@drawable/bee2"
+    android:duration="200"/>
+<item
+    android:drawable="@drawable/bee3"
+    android:duration="200"/>
+<item
+    android:drawable="@drawable/bee4"
+    android:duration="200"/>
+<item
+    android:drawable="@drawable/bee5"
+    android:duration="200"/>
+<item
+    android:drawable="@drawable/bee6"
+    android:duration="200"/>
+<item
+    android:drawable="@drawable/bee7"
+    android:duration="200"/>
+<item
+    android:drawable="@drawable/bee8"
+    android:duration="200"/>
+<item
+    android:drawable="@drawable/bee9"
+    android:duration="200"/>
+<item
+    android:drawable="@drawable/bee10"
+    android:duration="200"/>
+<item
+    android:drawable="@drawable/bee11"
+    android:duration="200"/>
+<item
+    android:drawable="@drawable/bee12"
+    android:duration="200"/>
+<item
+    android:drawable="@drawable/bee13"
+    android:duration="200"/>
+
+</animation-list>

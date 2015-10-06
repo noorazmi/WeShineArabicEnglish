@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android" 
+      android:oneshot="false" >
+<item
+    android:drawable="@drawable/clock1"
+    android:duration="33"/>
+<item
+    android:drawable="@drawable/clock2"
+    android:duration="33"/>
+<item
+    android:drawable="@drawable/clock3"
+    android:duration="33"/>
+<item
+    android:drawable="@drawable/clock4"
+    android:duration="33"/>
+<item
+    android:drawable="@drawable/clock5"
+    android:duration="33"/>
+<item
+    android:drawable="@drawable/clock6"
+    android:duration="33"/>
+<item
+    android:drawable="@drawable/clock7"
+    android:duration="33"/>
+<item
+    android:drawable="@drawable/clock8"
+    android:duration="33"/>
+<item
+    android:drawable="@drawable/clock9"
+    android:duration="33"/>
+<item
+    android:drawable="@drawable/clock10"
+    android:duration="33"/>
+<item
+    android:drawable="@drawable/clock11"
+    android:duration="33"/>
+<item
+    android:drawable="@drawable/clock12"
+    android:duration="33"/>
+<item
+    android:drawable="@drawable/clock13"
+    android:duration="33"/>
+<item
+    android:drawable="@drawable/clock14"
+    android:duration="33"/>
+<item
+    android:drawable="@drawable/clock15"
+    android:duration="33"/>
+<item
+    android:drawable="@drawable/clock16"
+    android:duration="33"/>
+<item
+    android:drawable="@drawable/clock17"
+    android:duration="33"/>
+<item
+    android:drawable="@drawable/clock18"
+    android:duration="33"/>
+<item
+    android:drawable="@drawable/clock19"
+    android:duration="33"/>
+<item
+    android:drawable="@drawable/clock20"
+    android:duration="33"/>
+<item
+    android:drawable="@drawable/clock21"
+    android:duration="33"/>
+<item
+    android:drawable="@drawable/clock22"
+    android:duration="33"/>
+<item
+    android:drawable="@drawable/clock23"
+    android:duration="33"/>
+<item
+    android:drawable="@drawable/clock24"
+    android:duration="33"/>
+<item
+    android:drawable="@drawable/clock25"
+    android:duration="33"/>
+<item
+    android:drawable="@drawable/clock26"
+    android:duration="33"/>
+<item
+    android:drawable="@drawable/clock27"
+    android:duration="33"/>
+<item
+    android:drawable="@drawable/clock28"
+    android:duration="33"/>
+<item
+    android:drawable="@drawable/clock29"
+    android:duration="33"/>
+<item
+    android:drawable="@drawable/clock30"
+    android:duration="33"/>
+</animation-list>
+

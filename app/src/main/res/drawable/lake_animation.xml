@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android"
+    android:oneshot="false" >
+
+    <item
+        android:drawable="@drawable/lake1"
+        android:duration="@integer/birds_animation_frame_duration"/>
+    <item
+        android:drawable="@drawable/lake2"
+        android:duration="@integer/birds_animation_frame_duration"/>
+    <item
+        android:drawable="@drawable/lake3"
+        android:duration="@integer/birds_animation_frame_duration"/>
+    <item
+        android:drawable="@drawable/lake4"
+        android:duration="@integer/birds_animation_frame_duration"/>
+    <item
+        android:drawable="@drawable/lake5"
+        android:duration="@integer/birds_animation_frame_duration"/>
+    <item
+        android:drawable="@drawable/lake6"
+        android:duration="@integer/birds_animation_frame_duration"/>
+    <item
+        android:drawable="@drawable/lake7"
+        android:duration="@integer/birds_animation_frame_duration"/>
+    <item
+        android:drawable="@drawable/lake8"
+        android:duration="@integer/birds_animation_frame_duration"/>
+    <item
+        android:drawable="@drawable/lake9"
+        android:duration="@integer/birds_animation_frame_duration"/>
+    <item
+        android:drawable="@drawable/lake10"
+        android:duration="@integer/birds_animation_frame_duration"/>
+    <item
+        android:drawable="@drawable/lake11"
+        android:duration="@integer/birds_animation_frame_duration"/>
+    <item
+        android:drawable="@drawable/lake12"
+        android:duration="@integer/birds_animation_frame_duration"/>
+    <item
+        android:drawable="@drawable/lake13"
+        android:duration="@integer/birds_animation_frame_duration"/>
+    <item
+        android:drawable="@drawable/lake14"
+        android:duration="@integer/birds_animation_frame_duration"/>
+    <item
+        android:drawable="@drawable/lake15"
+        android:duration="@integer/birds_animation_frame_duration"/>
+    <item
+        android:drawable="@drawable/lake16"
+        android:duration="@integer/birds_animation_frame_duration"/>
+
+</animation-list>

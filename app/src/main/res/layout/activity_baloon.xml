@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/frame_layout_container">
+
+    <ImageView
+        android:id="@+id/baloon_lakeImageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right|bottom"
+        android:layout_marginTop="@dimen/maze2_sun_top_margin" />
+
+    <TextView
+        android:id="@+id/baloon_scoreTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|left"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="70dp"
+        android:gravity="center"
+        android:text="Score: 0"
+        android:textColor="#ff0000"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/sunCatcher_circleTextView"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_gravity="top|left"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="90dp"
+        android:background="@drawable/circle"
+        android:gravity="center"
+        android:text="60"
+        android:textColor="#ff0000"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <AbsoluteLayout
+        android:id="@+id/mainLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" 
+        >
+
+        <ImageView
+            android:id="@+id/baloon_poleImageView"
+            android:layout_width="81dp"
+            android:layout_height="195dp"
+            android:layout_x="310dp"
+            android:layout_y="85dp" />
+
+        <ImageView
+            android:id="@+id/baloon_batteryBoxImageView"
+            android:layout_width="81dp"
+            android:layout_height="195dp"
+            android:layout_x="310dp"
+            android:layout_y="85dp"
+            android:src="@drawable/battery_box" />
+
+        <!-- <ImageView
+            android:id="@+id/baloon_sunImageView"
+            android:layout_width="120dp"
+            android:layout_height="124dp"
+            android:src="@drawable/baloon_sun" /> -->
+
+
+        <ImageView
+            android:id="@+id/baloon_golfCarImageView"
+            android:layout_width="150dp"
+            android:layout_height="100dp"
+            android:layout_x="171dp"
+            android:layout_y="177dp"
+            android:src="@drawable/baloon_golfcar" />
+    </AbsoluteLayout>
+
+   <!--  <LinearLayout
+        android:id="@+id/sunCatcher_batteryFullLinearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:visibility="gone" >
+
+        <ImageView
+            android:id="@+id/sunCatcher_batteryFullImageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/batteryfull" />
+    </LinearLayout> -->
+
+    <LinearLayout
+        android:id="@+id/sunCatcher_gameOverLinearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:visibility="visible" >
+
+        <ImageView
+            android:id="@+id/gameOverImageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone"/>
+         <!-- <ImageView
+             android:id="@+id/congratImageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/congrats"
+            android:visibility="gone" /> -->
+    </LinearLayout>
+
+</FrameLayout>

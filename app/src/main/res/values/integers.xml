@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="integer" name="birds_animation_frame_duration">50</item>
+    <item type="integer" name="stars_animation_frame_duration">10</item>
+    <item type="integer" name="sea_animation_frame_duration">500</item>
+    <item type="integer" name="maze1sun_animation_frame_duration">300</item>
+</resources>

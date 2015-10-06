@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="maze2_red_boat_left_margin">65dp</dimen>
+    <dimen name="maze2_sun_left_margin">10dp</dimen>
+    <dimen name="maze2_sun_top_margin">40dp</dimen>
+    <dimen name="maze3_car_right_margin">20dp</dimen>
+    <dimen name="maze4_sun_right_margin">98dp</dimen>
+    <dimen name="maze4_sun_top_margin">22dp</dimen>
+    <dimen name="maze5_sun_right_margin">70dp</dimen>
+    <dimen name="maze5_sun_top_margin">3dp</dimen>
+    <dimen name="maze1_sun_right_margin">40dp</dimen>
+    <dimen name="maze1_sun_top_margin">3dp</dimen>
+     <dimen name="maze1_bird_left_margin">110dp</dimen>
+    <dimen name="maze1_bird_top_margin">3dp</dimen>
+</resources>
